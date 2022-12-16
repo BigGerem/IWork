@@ -1,0 +1,63 @@
+#aMain{
+	color: violet;
+	font-weight: 600;
+}
+body{
+	height: 97%;
+	width:99%;
+	margin:0;
+}
+#content{
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	height: 85%;
+	width: 60%;
+}
+#apps{
+	margin: 0px auto;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	height: 70%;
+	width: 100%;
+}
+#title{
+	color: violet;
+	font-size: 72pt;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Calibri;
+	margin: 0 auto;
+}
+.divApps{
+	padding: 10px;
+	background: gray;  
+	height: 190px;
+	width: 290px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 50px;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.pApps{
+	color: white;
+	font-size: 18pt;
+	font-family: Calibri;
+	font-weight: 600;
+	margin: 30px auto;
+}
+.aDiv{
+	text-decoration: none;
+}
+.pApps:hover{
+	color: red;
+}
+.imgLinks{
+	
+	margin: 0 auto;
+	height: 100px;
+	width: 100px;
+}

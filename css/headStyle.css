@@ -1,0 +1,17 @@
+#header{
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+	margin: 0px auto;
+	height: 15%;
+	width: 60%;
+}
+.alinks{
+	color: blue;
+	text-decoration: none;
+	font-size: 16pt;
+	font-family: Calibri;
+}
+.alinks:hover{
+	color: red;
+}
